@@ -45,6 +45,12 @@ body{
     font-size: 40px;
 }
 
+.header h1::selection{
+    background-color: white;
+    color: #FF6961;
+}
+
+
 /*navegacion barra*/
 
 .navegacionPrincipal {
@@ -59,6 +65,12 @@ body{
     text-decoration: none;
     color: white;
 }
+
+.navegacionPrincipal li a::selection{
+    background-color: white;
+    color: #FF6961;
+}
+
 
 /*seccion principal*/
 
@@ -128,6 +140,12 @@ main section{
     border-radius: 15px;
     margin: 20px 10px 20px 20px;
 }
+
+h3::selection{
+    background-color: #FF6961;
+    color: white;
+}
+
 
 
 /*quienesSomos*/
@@ -265,12 +283,6 @@ main section{
     margin: 10px;
 }
 
-/*.faq li::first-letter{
-    font-size: 40px;
-    color:#FF6961;
-    font-weight: bold;
-}*/
-
 /*cuenta*/
 
 
@@ -337,10 +349,8 @@ button:hover{
         width: 32px;
 }
 
-nav #toggle,  nav label{
-    display: none;
-}
 
+/*Responsive*/
 
 @media (max-width: 1024px) {
     .sectionPrincipal h2 {
@@ -416,6 +426,7 @@ nav #toggle,  nav label{
 }
 
 @media (max-width: 476px) {
+
     .header h1 {
         font-size: 28px;
     }
