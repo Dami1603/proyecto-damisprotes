@@ -1,0 +1,80 @@
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 30px;
+    }
+    .quienesSomos p {
+        width: 80%; 
+        font-size: medium; 
+    }
+    .sectionPrincipal{
+    h2 {
+        font-size: 30px;
+    }
+    li{
+        font-size: 24px;
+    }
+    }
+    .comidasDestacadas{
+        h3{
+            width: 80%;
+            font-size: 28px;
+        }
+    }
+    .cardContainer{
+        width: 80%;
+        gap:15px
+    }
+    .cardContainerMenu{
+        @include grid(repeat(2,2fr),2);
+        gap: auto;
+    }
+
+
+
+    .footer p{
+        display: none;
+    }
+
+    .faq{
+        li {
+            font-size: medium;
+        }
+        
+        p{
+            width: 80%;
+            font-size: medium;
+        }
+        
+    }
+    nav{
+        .menu{
+            width: 100%;
+            height: 0;
+            overflow: hidden;
+            position: fixed;
+        }
+        ul {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 8px 0px;
+        }
+        label{
+            display: inline-flex;
+        }
+    
+        li{
+            font-size: large;
+        }
+    }
+    
+    .cuenta{
+        
+        label{
+            width: auto;
+        }
+        input{
+            width: auto;
+        }
+    }
+
+}

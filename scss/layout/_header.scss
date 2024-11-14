@@ -1,0 +1,36 @@
+.header{
+    background-color: map-get($colores, primario);
+    @include flex(row,space-between,center);
+    padding: 20px 10px;
+    h1{
+        font-family: $fuente-titulo;
+        font-weight: bold;
+        color:white;
+        margin: 20px;
+        font-size: 40px;
+        &::selection{
+            background-color: map-get($colores, secundario);
+            color: map-get($colores, primario);
+        }
+    }
+    nav{
+        width: 50%;
+        display: flex;
+    }
+}
+
+.navegacionPrincipal {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    li a{
+        text-decoration: none;
+        color: map-get($colores, secundario);
+        &::selection{
+            background-color: map-get($colores, secundario);
+            color: map-get($colores, primario);
+        }
+    }
+}

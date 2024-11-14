@@ -1,0 +1,29 @@
+@media (max-width: 375px) {
+    .header h1 {
+        font-size: 24px;
+    }
+    .sectionPrincipal{
+        h2 {
+            font-size: 10px;
+        }
+        button {
+            font-size: 20px;
+        }
+    }
+    .cardContainer{
+        width: auto;
+    } 
+
+
+    .quienesSomos p {
+        font-size: 14px;
+    }
+    .faq{
+        li {
+            font-size: small
+        }
+        p{
+            width: 14px;
+        }
+    }
+}

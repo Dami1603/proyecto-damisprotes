@@ -1,0 +1,16 @@
+.quienesSomos{
+    p{
+    margin-top: 10px;
+    width: 850px;
+    font-size: x-large;
+    text-align: left;
+    &::first-letter{
+        font-size: 40px;
+        color: map-get($colores, primario);
+        font-weight: bold;
+        }
+    }
+    img{
+        align-content: center;
+    }
+}

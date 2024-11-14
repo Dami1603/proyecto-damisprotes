@@ -1,0 +1,15 @@
+.comidasDestacadas{
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    h3{
+    color: map-get($colores, secundario); 
+    background-color: map-get($colores, primario);
+    @include font($fuente-principal, none, 36px);
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    width: 37.5rem;
+    margin: 10px auto 20px auto;
+    }
+}

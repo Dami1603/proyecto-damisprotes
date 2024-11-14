@@ -1,0 +1,53 @@
+@media (max-width: 476px) {
+
+    .header h1 {
+        font-size: 20px;
+    }
+    .quienesSomos{
+        p {
+            width: 100%; 
+            font-size: small;
+        }
+        img {
+            width: 100%; 
+            height: auto; 
+        }
+    } 
+    .sectionPrincipal{
+        h2 {
+            font-size: 24px;
+        } 
+        button {
+            font-size: 24px;
+            padding: 8px 16px;
+        }
+        li{
+            font-size: 24px;
+        }
+        } 
+        .comidasDestacadas{
+            h3{
+                font-size: 20px;
+            }
+        }
+        .cardContainer{
+            width: 40%;
+        }
+        .cardContainerMenu{
+            @include grid(repeat(1,1fr),1);
+        }
+    .faq{
+        li {
+            font-size: small;
+        }
+        p{
+            width: 100%;
+            font-size: small;
+        }
+    } 
+    nav{
+        li{
+            font-size: small;
+        }
+    } 
+}

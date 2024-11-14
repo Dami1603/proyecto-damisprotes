@@ -1,0 +1,20 @@
+.footer {
+    background-color: map-get($colores, primario);
+    @include flex(row,center,center);
+    padding: 20px 10px;
+    @include font($fuente-principal, bold, 24px);
+    list-style: none;     
+    bottom: 0;
+    margin-top: auto;
+    width: 100%;
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        margin: auto;
+        gap: 20px
+    }
+    img{
+        width: 32px;
+    }
+}
