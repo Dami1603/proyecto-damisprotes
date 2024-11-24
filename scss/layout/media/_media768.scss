@@ -53,14 +53,13 @@
             overflow: hidden;
             position: fixed;
         }
+        
         ul {
             flex-direction: column;
             align-items: flex-start;
             padding: 8px 0px;
         }
-        label{
-            display: inline-flex;
-        }
+
     
         li{
             font-size: large;

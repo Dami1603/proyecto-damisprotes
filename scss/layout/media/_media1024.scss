@@ -1,5 +1,6 @@
 @media (max-width: 1024px) {
     .sectionPrincipal{
+        flex-direction: column;
         h2 {
             font-size: 42px;
         }
@@ -12,6 +13,17 @@
             font-size: large;
         }
     }
+
+    .plato{
+        width: 250px;
+    }
+
+    .cardContenido{
+        p{
+            font-size: 16px;
+        }
+    }
+
 
     .quienesSomos{
         p {

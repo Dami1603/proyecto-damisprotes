@@ -7,6 +7,13 @@
     bottom: 0;
     margin-top: auto;
     width: 100%;
+    p{
+        color: map-get($colores, secundario);
+        &::selection{
+            background-color: map-get($colores, secundario);
+            color: map-get($colores, primario);
+        }
+    }
     div{
         display: flex;
         flex-direction: row;

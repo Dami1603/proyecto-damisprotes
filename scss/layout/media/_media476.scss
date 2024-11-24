@@ -3,6 +3,11 @@
     .header h1 {
         font-size: 20px;
     }
+    nav{
+        li{
+            font-size: small;
+        }
+    } 
     .quienesSomos{
         p {
             width: 100%; 
@@ -30,9 +35,6 @@
                 font-size: 20px;
             }
         }
-        .cardContainer{
-            width: 40%;
-        }
         .cardContainerMenu{
             @include grid(repeat(1,1fr),1);
         }
@@ -45,9 +47,5 @@
             font-size: small;
         }
     } 
-    nav{
-        li{
-            font-size: small;
-        }
-    } 
+
 }
