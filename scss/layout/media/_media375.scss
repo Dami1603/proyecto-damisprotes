@@ -4,11 +4,25 @@
     }
     .sectionPrincipal{
         h2 {
-            font-size: 10px;
+            font-size: 20px;
+        }
+        ul{
+            li{
+                font-size: 20px;
+            }
         }
         button {
             font-size: 20px;
         }
+    }
+
+    .cardContainer{
+        @include grid(repeat(1,1fr),1);
+        gap: auto;
+    }
+
+    .plato{
+        width: 200px;
     }
 
 

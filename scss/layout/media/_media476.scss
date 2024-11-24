@@ -35,6 +35,7 @@
                 font-size: 20px;
             }
         }
+        
         .cardContainerMenu{
             @include grid(repeat(1,1fr),1);
         }
