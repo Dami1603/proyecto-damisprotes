@@ -36,6 +36,15 @@
             }
         }
         
+        .cardContainer{
+            @include grid(repeat(1,1fr),1);
+            gap: auto;
+        }
+    
+        .plato{
+            width: 200px;
+        }
+    
         .cardContainerMenu{
             @include grid(repeat(1,1fr),1);
         }
